@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Unbuntu";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("Unbuntu"), url("../fonts/Inter-Regular.woff2?v=3.15") format("woff2"), url("../fonts/Inter-Regular.woff?v=3.15") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Unbuntu";
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("Unbuntu"), url("../assets/fonts/Ubuntu-Regular.ttf")
+  }
+  
+  @font-face {
+    font-family: "Unbuntu";
+    font-weight: 500;
+    font-style: medium;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("Unbuntu"), url("../assets/fonts/Ubuntu-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "Unbuntu";
+    font-weight: 700;
+    font-style: bold;
+    font-display: auto;
+    unicode-range: U+000-5FF;
+    src: local("Unbuntu"), url("../assets/fonts/Ubuntu-Bold.ttf");
+  }
+  
+* {
+    font-family: Unbuntu;
+}
+
